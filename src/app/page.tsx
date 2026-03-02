@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Heading } from "@/components/ui/heading";
-import { Paragraph } from "@/components/ui/paragraph";
+import { Text } from "@/components/ui/text";
 
 export default function Home() {
   return (
@@ -10,15 +10,15 @@ export default function Home() {
         <Heading level="h3" as="h1">
           Shared utilities for cleaner Tailwind + CVA components
         </Heading>
-        <Paragraph size="md" className="max-w-2xl text-black-100/70">
+        <Text size="md" className="max-w-2xl text-black-100/70">
           The <code>cn</code> helper merges conditional classes and resolves
           Tailwind conflicts, while variant-driven components keep style logic in
           one place.
-        </Paragraph>
+        </Text>
 
-        <Paragraph size="sm" weight="semibold" className="text-black-100/80">
-          Reusable typography now includes `Heading` and `Paragraph`.
-        </Paragraph>
+        <Text size="sm" weight="semibold" className="text-black-100/80">
+          Reusable typography now includes `Heading` and `Text`.
+        </Text>
 
         <div className="flex flex-wrap gap-3">
           <Button>Get Started</Button>

@@ -3,24 +3,7 @@
 @theme {
   --font-dm: var(--font-dm-sans);
 
-  /* Crypgo palette from Figma node 46:55 */
-  --color-primary-100: #99e39e;
-  --color-primary-10: rgb(153 227 158 / 0.1);
-
-  --color-black-100: #000510;
-  --color-black-10: rgb(0 5 16 / 0.1);
-
-  --color-white-100: #ffffff;
-  --color-white-80: rgb(255 255 255 / 0.8);
-  --color-white-60: rgb(255 255 255 / 0.6);
-  --color-white-40: rgb(255 255 255 / 0.4);
-  --color-white-20: rgb(255 255 255 / 0.2);
-  --color-white-10: rgb(255 255 255 / 0.1);
-  --color-white-5: rgb(255 255 255 / 0.05);
-}
-
-:root {
-  /* Typography scale in rem to keep unit usage consistent project-wide. */
+  /* Typography scale (rem-only) */
   --type-heading-h1-size: 4.5rem;
   --type-heading-h1-line: 5.4rem;
   --type-heading-h1-tracking: -0.027rem;
@@ -45,17 +28,32 @@
   --type-heading-h6-line: 1.2rem;
   --type-heading-h6-tracking: -0.006rem;
 
-  --type-paragraph-lg-size: 1.125rem;
-  --type-paragraph-lg-line: 1.575rem;
+  --type-text-lg-size: 1.125rem;
+  --type-text-lg-line: 1.575rem;
 
-  --type-paragraph-md-size: 1rem;
-  --type-paragraph-md-line: 1.4rem;
+  --type-text-md-size: 1rem;
+  --type-text-md-line: 1.4rem;
 
-  --type-paragraph-sm-size: 0.875rem;
-  --type-paragraph-sm-line: 1.225rem;
+  --type-text-sm-size: 0.875rem;
+  --type-text-sm-line: 1.225rem;
 
-  --type-paragraph-xs-size: 0.875rem;
-  --type-paragraph-xs-line: 1.225rem;
+  --type-text-xs-size: 0.875rem;
+  --type-text-xs-line: 1.225rem;
 
-  --type-paragraph-tracking: 0rem;
+  --type-text-tracking: 0rem;
+
+  /* Crypgo palette from Figma node 46:55 */
+  --color-primary-100: #99e39e;
+  --color-primary-10: rgb(153 227 158 / 0.1);
+
+  --color-black-100: #000510;
+  --color-black-10: rgb(0 5 16 / 0.1);
+
+  --color-white-100: #ffffff;
+  --color-white-80: rgb(255 255 255 / 0.8);
+  --color-white-60: rgb(255 255 255 / 0.6);
+  --color-white-40: rgb(255 255 255 / 0.4);
+  --color-white-20: rgb(255 255 255 / 0.2);
+  --color-white-10: rgb(255 255 255 / 0.1);
+  --color-white-5: rgb(255 255 255 / 0.05);
 }
