@@ -1,0 +1,9 @@
+01. Project Initialize with tech stack
+02. clean up css and add reset css
+03. add fonts 
+04. add colors 
+05. add Typogrpahy 
+06. verify if colors and Typogrpahy used in the pages in figma or not 
+07. collect assets (images, icons)
+08. create utility function like cn() with tailwind-merge and clx, ClassValue packages
+09. create ui components like button, link, card
