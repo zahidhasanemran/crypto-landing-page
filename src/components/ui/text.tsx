@@ -3,13 +3,13 @@ import type { ComponentPropsWithoutRef, ElementType } from "react";
 
 import { cn } from "@/lib/utils";
 
-const textVariants = cva("font-dm text-black-100 tracking-[var(--type-text-tracking)]", {
+const textVariants = cva("font-dm text-black-100", {
   variants: {
     size: {
-      lg: "text-[length:var(--type-text-lg-size)] leading-[var(--type-text-lg-line)]",
-      md: "text-[length:var(--type-text-md-size)] leading-[var(--type-text-md-line)]",
-      sm: "text-[length:var(--type-text-sm-size)] leading-[var(--type-text-sm-line)]",
-      xs: "text-[length:var(--type-text-xs-size)] leading-[var(--type-text-xs-line)]",
+      lg: "type-text-lg",
+      md: "type-text-md",
+      sm: "type-text-sm",
+      xs: "type-text-xs",
     },
     weight: {
       regular: "font-normal",
@@ -43,4 +43,3 @@ export function Text<T extends ElementType = "p">({
     <Component className={cn(textVariants({ size, weight }), className)} {...props} />
   );
 }
-

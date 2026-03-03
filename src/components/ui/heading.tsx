@@ -8,12 +8,12 @@ const headingVariants = cva(
   {
     variants: {
       level: {
-        h1: "text-[length:var(--type-heading-h1-size)] leading-[var(--type-heading-h1-line)] tracking-[var(--type-heading-h1-tracking)] font-medium",
-        h2: "text-[length:var(--type-heading-h2-size)] leading-[var(--type-heading-h2-line)] tracking-[var(--type-heading-h2-tracking)] font-medium",
-        h3: "text-[length:var(--type-heading-h3-size)] leading-[var(--type-heading-h3-line)] tracking-[var(--type-heading-h3-tracking)] font-medium",
-        h4: "text-[length:var(--type-heading-h4-size)] leading-[var(--type-heading-h4-line)] tracking-[var(--type-heading-h4-tracking)] font-medium",
-        h5: "text-[length:var(--type-heading-h5-size)] leading-[var(--type-heading-h5-line)] tracking-[var(--type-heading-h5-tracking)] font-medium",
-        h6: "text-[length:var(--type-heading-h6-size)] leading-[var(--type-heading-h6-line)] tracking-[var(--type-heading-h6-tracking)] font-medium",
+        h1: "type-heading-h1 font-medium",
+        h2: "type-heading-h2 font-medium",
+        h3: "type-heading-h3 font-medium",
+        h4: "type-heading-h4 font-medium",
+        h5: "type-heading-h5 font-medium",
+        h6: "type-heading-h6 font-medium",
       },
     },
     defaultVariants: {
