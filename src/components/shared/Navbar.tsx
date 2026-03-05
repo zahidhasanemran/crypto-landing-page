@@ -26,7 +26,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-black-100/95 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 bg-black-100/50 backdrop-blur-xs">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between py-5">
           <Link href="/" className="block" onClick={handleMenuClose}>
@@ -59,19 +59,16 @@ const Navbar = () => {
           >
             <span className="relative h-4 w-5">
               <span
-                className={`absolute left-0 top-0 block h-0.5 w-5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "translate-y-[7px] rotate-45" : ""
-                }`}
+                className={`absolute left-0 top-0 block h-0.5 w-5 bg-current transition-all duration-300 ${isMenuOpen ? "translate-y-[7px] rotate-45" : ""
+                  }`}
               />
               <span
-                className={`absolute left-0 top-[7px] block h-0.5 w-5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "opacity-0" : "opacity-100"
-                }`}
+                className={`absolute left-0 top-[7px] block h-0.5 w-5 bg-current transition-all duration-300 ${isMenuOpen ? "opacity-0" : "opacity-100"
+                  }`}
               />
               <span
-                className={`absolute left-0 top-[14px] block h-0.5 w-5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "-translate-y-[7px] -rotate-45" : ""
-                }`}
+                className={`absolute left-0 top-[14px] block h-0.5 w-5 bg-current transition-all duration-300 ${isMenuOpen ? "-translate-y-[7px] -rotate-45" : ""
+                  }`}
               />
             </span>
           </button>
@@ -79,9 +76,8 @@ const Navbar = () => {
 
         <div
           id="mobile-menu"
-          className={`grid overflow-hidden transition-all duration-300 ease-out lg:hidden ${
-            isMenuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
-          }`}
+          className={`grid overflow-hidden transition-all duration-300 ease-out lg:hidden ${isMenuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+            }`}
         >
           <div className="min-h-0">
             <div className="mb-5 rounded-2xl border border-white-10 bg-black-100 p-3 shadow-[0_12px_40px_rgb(0_0_0_/0.35)]">
