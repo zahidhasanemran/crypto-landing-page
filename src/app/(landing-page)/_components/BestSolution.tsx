@@ -56,9 +56,8 @@ const FeatureItem = ({ item, align }: FeatureItemProps) => {
 
   return (
     <article
-      className={`flex items-start gap-4 ${
-        isLeftAligned ? "text-left lg:flex-row-reverse lg:text-right" : "text-left"
-      }`}
+      className={`flex items-start gap-4 ${isLeftAligned ? "text-left lg:flex-row-reverse lg:text-right" : "text-left"
+        }`}
     >
       <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white-5">
         <Image
@@ -74,7 +73,7 @@ const FeatureItem = ({ item, align }: FeatureItemProps) => {
         <Heading as="h3" level="h5" className="text-white-100">
           {item.title}
         </Heading>
-        <Text size="md" className="mt-1 max-w-56 text-white-60">
+        <Text size="md" className="mt-1 text-white-60">
           {item.description}
         </Text>
       </div>
@@ -101,25 +100,25 @@ const BestSolution = () => {
         </div>
 
         <div className="mt-10 lg:mt-16">
-          <div className="relative mx-auto flex max-w-[72rem] justify-center">
+          <div className="relative mx-auto flex max-w-6xl justify-center">
             <Image
               src="/images/best-solution.png"
               alt="Crypto exchange mobile interface with highlighted coins"
               width={690}
               height={708}
-              className="h-auto w-full max-w-[43.125rem] object-contain"
+              className="h-auto w-full max-w-172.5 object-contain"
             />
 
-            <div className="absolute left-[4%] top-[24%] hidden max-w-56 lg:block">
+            <div className="absolute left-[6%] top-[24%] hidden max-w-62 lg:block">
               <FeatureItem item={LEFT_ITEMS[0]} align="left" />
             </div>
-            <div className="absolute left-[9%] top-[63%] hidden max-w-56 lg:block">
+            <div className="absolute left-[9%] top-[63%] hidden max-w-62 lg:block">
               <FeatureItem item={LEFT_ITEMS[1]} align="left" />
             </div>
-            <div className="absolute right-[5%] top-[25%] hidden max-w-56 lg:block">
+            <div className="absolute right-[7%] top-[25%] hidden max-w-62 lg:block">
               <FeatureItem item={RIGHT_ITEMS[0]} align="right" />
             </div>
-            <div className="absolute right-[9%] top-[66%] hidden max-w-56 lg:block">
+            <div className="absolute right-[8%] top-[66%] hidden max-w-62 lg:block">
               <FeatureItem item={RIGHT_ITEMS[1]} align="right" />
             </div>
           </div>

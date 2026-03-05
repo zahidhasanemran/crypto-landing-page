@@ -5,6 +5,7 @@ import FeaturedCoin from "@/app/(landing-page)/_components/FeaturedCoin"
 import WhyChoseCrypgo from "@/app/(landing-page)/_components/WhyChoseCrypgo"
 import Stats from "@/app/(landing-page)/_components/Stats"
 import BestSolution from "@/app/(landing-page)/_components/BestSolution"
+import Cta from "@/app/(landing-page)/_components/Cta"
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyChoseCrypgo />
       <Stats />
       <BestSolution />
+      <Cta />
     </div>
   )
 }
