@@ -114,7 +114,7 @@ const Footer = () => {
               </Heading>
 
               <div className="mt-4 flex max-w-52 flex-col gap-3">
-                <Link href="#" className="inline-flex">แ
+                <Link href="#" className="inline-flex">
                   <Image
                     src="/images/google-play-btn.png"
                     alt="Get it on Google Play"
@@ -143,7 +143,7 @@ const Footer = () => {
           </div>
 
 
-          
+
         </div>
       </div>
     </footer>

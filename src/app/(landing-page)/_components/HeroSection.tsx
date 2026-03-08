@@ -13,7 +13,7 @@ const HeroSection = () => {
             <Heading
               as="h6"
               level="h6"
-              className="mb-4 inline-flex rounded-full border border-primary-10 bg-primary-10 px-4 py-2 text-primary-100 sm:px-5"
+              className="mb-4 inline-flex rounded-full border border-primary-10 bg-primary-10 px-4 py-1.5 text-primary-100 sm:px-5"
             >
               Future of crypto trading
             </Heading>
@@ -21,7 +21,7 @@ const HeroSection = () => {
             <Heading
               as="h1"
               level="h1"
-              className="text-balance text-[length:var(--type-heading-h2-size)] leading-[var(--type-heading-h2-line)] tracking-[var(--type-heading-h2-tracking)] text-white-100 sm:text-[length:var(--type-heading-h1-size)] sm:leading-[var(--type-heading-h1-line)] sm:tracking-[var(--type-heading-h1-tracking)]"
+              className="text-balance text-4xl leading-tight tracking-tight text-white-100 sm:text-5xl lg:text-7xl"
             >
               Fast and Secure Cryptocurrency Exchange
             </Heading>
@@ -38,7 +38,7 @@ const HeroSection = () => {
               <Button
                 text="Explore more"
                 icon={<span className="text-[1.2rem] leading-none">→</span>}
-                className="w-full max-w-52 justify-center rounded-xl px-6 py-3.5 tracking-normal sm:w-auto sm:px-8 sm:py-4"
+                className="w-auto justify-center rounded-xl tracking-normal"
               />
             </div>
           </div>

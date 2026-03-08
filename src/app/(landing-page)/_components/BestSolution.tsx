@@ -16,7 +16,7 @@ const LEFT_ITEMS: BestSolutionItem[] = [
   {
     id: "planning",
     title: "Planning",
-    description: "Map the crypto top projects scope with framer template",
+    description: "Map the crypto projects scope with framer template",
     iconSrc: "/images/plan-icon.svg",
     iconAlt: "Planning icon",
   },
